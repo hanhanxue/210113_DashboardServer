@@ -1,8 +1,12 @@
 canvas {
-    margin-top: 48px;
+    margin-top: 72px;
     border-radius: 16px;
 
 
+}
+
+body{
+    background: #212022;
 }
 
 p {

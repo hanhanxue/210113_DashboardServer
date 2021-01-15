@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Epochal</title>
     <link rel="stylesheet" href="mystyle.css">
+    <title>Epochal</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/210113F_music.loader.js"></script>
+    <script src="Build/210114.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/210113F_music.data",
-        frameworkUrl: "Build/210113F_music.framework.js",
-        codeUrl: "Build/210113F_music.wasm",
+        dataUrl: "Build/210114.data",
+        frameworkUrl: "Build/210114.framework.js",
+        codeUrl: "Build/210114.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "unity",
         productVersion: "0.1",
       });
     </script>
+    
   </body>
 </html>
