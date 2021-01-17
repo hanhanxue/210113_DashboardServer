@@ -4,21 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
     <title>Epochal</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/210116E.loader.js"></script>
+    <script src="Build/210117A.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/210116E.data",
-        frameworkUrl: "Build/210116E.framework.js",
-        codeUrl: "Build/210116E.wasm",
+        dataUrl: "Build/210117A.data",
+        frameworkUrl: "Build/210117A.framework.js",
+        codeUrl: "Build/210117A.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "unity",
         productVersion: "0.1",
       });
     </script>
+
+    
+    <p>1. Click and drag in the screne to look around.</p>
+    <p>2. Press ⏸ button to play song.</p>
+    <p>3. Press UpArrow ↑ or W to accelerate, press DownArrow ↓ or S to break.</p>
+    
   </body>
 </html>

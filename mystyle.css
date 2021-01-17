@@ -1,7 +1,7 @@
 canvas {
-    margin-top: 72px;
+    margin-top: 96px;
     border-radius: 16px;
-
+    margin-bottom: 24px;
 
 }
 
@@ -10,5 +10,7 @@ body{
 }
 
 p {
+    margin: 8px 0px 8px 0px;
     font-family: 'Lato', sans-serif;
+    color: grey;
 }
