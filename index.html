@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
-    <title>Epochal</title>
+
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" href="mystyle.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+      <title>Epoch XR</title>
+
   </head>
   <body style="text-align: center">
-      <div></div>
-      <p>1. Click and drag in the screne to look around.</p>
-      <p>2. Press ► button to play song.</p>
-      <p>3. Press UpArrow ↑ or W to accelerate, press DownArrow ↓ or S to brake.</p>
 
-    <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/210117B.loader.js"></script>
+    <div></div>
+    <p>1. Click and drag in the screne to look around.</p>
+
+    <canvas id="unity-canvas" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/210203F.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/210117B.data",
-        frameworkUrl: "Build/210117B.framework.js",
-        codeUrl: "Build/210117B.wasm",
+        dataUrl: "Build/210203F.data.gz",
+        frameworkUrl: "Build/210203F.framework.js.gz",
+        codeUrl: "Build/210203F.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "unity",
