@@ -9,20 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
     <title>Epoch XR</title>
 
+
   </head>
   <body style="text-align: center">
 
-    <div></div>
-    <p>1. Click and drag in the screne to look around.</p>
-    <p>2. Press ALT + U to surface mission info panel and ALT + I for diagnostics.</p>
-
+      <div></div>
+      <p>1. Click and drag in the screne to look around.</p>
+      <p>2. Press ALT + U to surface mission info panel and ALT + I for diagnostics.</p>
+      
     <canvas id="unity-canvas" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/210205A.loader.js"></script>
+    <script src="Build/210209.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/210205A.data",
-        frameworkUrl: "Build/210205A.framework.js",
-        codeUrl: "Build/210205A.wasm",
+        dataUrl: "Build/210209.data",
+        frameworkUrl: "Build/210209.framework.js",
+        codeUrl: "Build/210209.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "unity",
